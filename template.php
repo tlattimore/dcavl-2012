@@ -62,7 +62,7 @@ function advancement_username($vars) {
     // $vars['attributes_array']['class'][] = 'myclass';
     $output = '<span' . drupal_attributes($vars['attributes_array']) . '>' . $vars['name'] . $vars['extra'] . '</span>';
   }
-  dpm($vars);
+  //dpm($vars);
   return $output;
 
 }
